@@ -1,0 +1,399 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Times New Roman', Times, serif, San-serif;
+    font-size: 100%;
+    background-color: #FFFAEF;
+    color:#3A2020;
+    font-size: 17px;
+    margin: 0;
+  }
+  
+ 
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li{
+    list-style-type: none;
+  }
+
+/* Меню */
+  .page-navigation {
+    background-color: #CABBB1;
+    min-height: 70px;
+    
+  }
+  
+  .page-navigation li {
+    float: left;
+  }
+  
+  .page-navigation li:hover {
+    background-color: #FFFAEF ;
+  }
+  
+  .page-navigation li:hover a{
+    color: #3A2020(42, 115, 91, 1);
+  }
+  
+  .page-navigation a {
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 4em;
+    color: #3A2020;
+    padding: 0 80px;
+    
+  }
+
+  .page-navigation h1 {
+    font-family: 'Rouge Script', Times, serif;
+    color: #3A2020;
+    font-weight: normal;
+
+    margin: 10px 150px 5px 20px; ;
+    
+}
+
+/*Головна */
+.interest {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.figure {
+  padding: 50px 200px 0px 100px;
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+  padding: 150px 100px 200px 50px;
+}
+
+.button_catalog {
+  background-color: #3A2020 ; 
+  color: #FFFAEF;
+  border: none; 
+  padding: 10px 40px;
+  border-radius: 50px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+  
+.button_catalog:hover {
+  background-color: #CABBB1;
+  color: #3A2020; 
+}
+/* Види літератури */
+.literature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.top-row, .bottom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.book {
+  text-align: center;
+  margin-bottom: 30px; 
+}
+
+.book img {
+  width: 230px;
+  height: 275px;
+  display: block;
+  margin: 0 auto 20px; 
+}
+
+.book button {
+  background-color: #3A2020;
+  color: #FFFAEF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book button:hover {
+  background-color: #CABBB1;
+  color: #3A2020;
+}
+/* Про нас */
+.about_us{
+  display: flex;
+  font-size: 20px
+}
+.text1{
+  align-items: center;
+  float: left;
+  padding: 150px 150px 0 50px ;
+ 
+}
+.content{
+  
+  float: right;
+  padding: 100px 50px 100px 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CABBB1;
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 25px;
+  
+}
+
+.icon_text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px; 
+  
+}
+
+.icon i {
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+}
+
+
+/* Каталог*/
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-row1, .bottom-row1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+ 
+  width: 100%;
+}
+
+.catalog_book {
+  
+    text-align: center;
+    margin-bottom: 30px; 
+
+  
+}
+.catalog_book img {
+  width: 230px;
+  height: 275px;
+  display: block;
+  margin: 0 auto 20px; 
+}
+
+
+.button_willy  {
+  background-color: #3A2020;
+  color: #FFFAEF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+
+}
+
+.button_willy:hover {
+  background-color: #CABBB1;
+  color: #3A2020;
+}
+.point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.point .fas.fa-circle {
+  font-size: 10px; 
+  margin: 0 5px; /
+}
+
+
+.point .fas.fa-arrow-left,
+.point .fas.fa-arrow-right {
+  font-size: 20px; 
+}
+
+/* Відгуки */
+.reviews {
+  font-size: 18px; 
+}
+.review-info {
+  display: flex;
+  align-items: center;
+  
+ 
+}
+
+.review-info .fa-user-circle {
+  font-size: 35px; 
+  margin-right: 8px; 
+  
+}
+.star {
+  font-size: 20px; 
+}
+
+.star .icon {
+  margin: 0 1px; 
+  font-size: 16px; 
+}
+.add_rew {
+  background-color: #CABBB1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.input_field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  border: 1px solid #888;
+}
+
+.button_send {
+  background-color: #3A2020;
+  color: #FFFAEF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button_send:hover {
+  background-color: #FFFAEF;
+  color: #3A2020;
+}
+
+/* Доставка та оплата */
+.delivery {
+  justify-content: center;
+  margin: 40px;
+}
+
+.step-container1,
+.step-container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: center;
+  margin-top: 100px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #cabbb1;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #3a2020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text2 {
+  text-align: center;
+}
+
+/* Інформаційна панель */
+
+.info {
+  background-color: #CABBB1;
+  color: #3a2020;
+  padding: 20px;
+  margin-top: 30px;
+  clear: both;
+  display: flex;
+  
+
+}
+
+.info h1{
+  font-family: 'Rouge Script', Times, serif;
+  color: #3A2020;
+  font-weight: normal;
+  padding: 0 30px ;
+  text-align: center;
+  
+    
+}
+
+.contact{
+  margin: 40px 50px 10px 40px;
+}
+
+.all{
+  margin: 40px 50px 10px 40px;
+}
+
+.email{
+
+margin: 40px 50px 10px 40px;
+}
+
+.social-icon {
+  font-size: 24px; 
+  padding: 10px 5px 5px 5px ;
+}
+
+.button_follow{
+  background-color: #3A2020;
+  color: #FFFAEF;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 20px;
+  
+}
+
+.button_follow:hover {
+  background-color: #FFFAEF;
+  color: #3A2020;
+}
